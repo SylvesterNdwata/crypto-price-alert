@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 email = os.environ.get("EMAIL_ADDRESS")
-password = os.environ.get("PASSWORD")
+password = os.environ.get("APP_PASSWORD")
 
 to_email = os.environ.get("TO_ADDR")
 
